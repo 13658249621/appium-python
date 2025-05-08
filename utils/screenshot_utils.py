@@ -1,4 +1,6 @@
 import os
+from time import sleep
+
 from appium.webdriver.webdriver import WebDriver
 
 
@@ -13,5 +15,6 @@ def take_screenshot(driver: WebDriver, test_name: str, screenshot_dir: str = "ap
     if not os.path.exists(screenshot_dir):
         os.makedirs(screenshot_dir)
     screenshot_path = os.path.join(screenshot_dir, f"{test_name}.png")
+    sleep(1)  # 等待 1 秒以确保截图清晰
     driver.get_screenshot_as_file(screenshot_path)
     return screenshot_path

@@ -17,6 +17,8 @@ def driver(request):
         pytest.fail("未找到可用设备")
     try:
         driver = webdriver.Remote(APPIUM_SERVER_URL, desired_caps)
+        print(f"创建 driver 成功: {driver}")
+        driver.implicitly_wait(10)
         yield driver
     except Exception as e:
         print(f"创建或使用 driver 时出现异常: {e}")

@@ -2,7 +2,7 @@ import subprocess
 import os
 from appium import webdriver
 import time
-from threading import Thread
+from threading import Thread, Lock
 
 # 获取所有连接的安卓设备的 UDID
 def get_connected_devices():
@@ -15,6 +15,7 @@ def get_connected_devices():
             if line.strip():
                 udid = line.split('\t')[0]
                 devices.append(udid)
+        print(f"get_connected_devices获取到的设备列表: {devices}")
         return devices
     except subprocess.CalledProcessError:
         print("执行 adb devices 命令出错")
@@ -62,65 +63,40 @@ def create_desired_caps(udid, app_path, app_package, app_activity):
 
 # 设备管理器类，用于管理设备状态
 class DeviceManager:
+    _instance = None
+    _lock = Lock()
+
+    def __new__(cls):
+        with cls._lock:
+            if not cls._instance:
+                cls._instance = super().__new__(cls)
+                cls._instance.__init__()
+            return cls._instance
+
     def __init__(self):
         self.devices = get_connected_devices()
+        print(f"DeviceManagerinit当前设备列表: {self.devices}")
         self.device_status = {device: 'idle' for device in self.devices}
+        print(f"DeviceManagerinit当前设备状态: {self.device_status}")
 
     # 获取空闲设备
     def get_idle_device(self):
-        for device, status in self.device_status.items():
-            if status == 'idle':
-                self.device_status[device] = 'busy'
-                return device
-        return None
+        with self._lock:
+            for device, status in self.device_status.items():
+                print(f"get_idle_device设备状态: {device} - {status}")
+                if status == 'idle':
+                    self.device_status[device] = 'busy'
+                    return device
+            return None
 
     # 释放设备，标记为空闲
     def release_device(self, desired_caps):
-        udid = desired_caps.get('udid')
-        if udid in self.device_status:
-            self.device_status[udid] = 'idle'
-            print(f"设备 {udid} 已释放")
-        else:
-            print(f"未找到设备 {udid} 的状态信息，无法释放")
+        with self._lock:
+            device = desired_caps.get('udid')
+            if device in self.device_status:
+                self.device_status[device] = 'idle'
+                print(f"设备 {device} 已释放")
+                print(f"release_device设备状态: {device} - {self.device_status[device]}")
+            else:
+                print(f"未找到设备 {device} 的状态信息，无法释放")
 
-
-# 测试用例函数
-def run_test(device_udid, app_path, app_package, app_activity):
-    desired_caps = create_desired_caps(device_udid, app_path, app_package, app_activity)
-    if desired_caps:
-        appium_server_url = 'http://localhost:4723/wd/hub'
-        try:
-            driver = webdriver.Remote(appium_server_url, desired_caps)
-            print(f"在设备 {device_udid} 上开始测试")
-            # 这里可以添加具体的测试步骤
-            time.sleep(10)  # 模拟测试执行时间
-            driver.quit()
-            print(f"在设备 {device_udid} 上测试完成")
-        except Exception as e:
-            print(f"在设备 {device_udid} 上测试失败: {e}")
-        finally:
-            device_manager.release_device(device_udid)
-    else:
-        print(f"无法为设备 {device_udid} 创建所需配置")
-
-# 主程序
-if __name__ == "__main__":
-    device_manager = DeviceManager()
-    test_cases = 3  # 假设有 3 个测试用例
-    app_path = '/Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk'  # 替换为实际的应用路径
-    # app_package = 'com.example.app'  # 替换为实际的应用包名
-    # app_activity = 'com.example.app.MainActivity'  # 替换为实际的应用 Activity
-    threads = []
-
-    for _ in range(test_cases):
-        device = device_manager.get_idle_device()
-        if device:
-            thread = Thread(target=run_test, args=(device, app_path))
-            threads.append(thread)
-            thread.start()
-        else:
-            print("没有可用的空闲设备")
-
-    # 等待所有线程完成
-    for thread in threads:
-        thread.join()

@@ -1,4 +1,4 @@
-# test_login.py
+
 import os
 from time import sleep
 
@@ -9,6 +9,7 @@ from pages.home_page import HomePage
 from pages.yxgt_main_page import YxgtMainPAge
 from utils.image_math import click_by_image
 from utils.screenshot_utils import take_screenshot
+
 
 
 @pytest.mark.smoke
