@@ -1,8 +1,10 @@
 import requests
 import json
+from utils.logger import get_logger
 
 # 定义常量
 URL = "http://127.0.0.1:5000/upload"
+logger = get_logger()
 
 
 def main():
@@ -26,11 +28,11 @@ def main():
         raise Exception(f"Unexpected code {response}")
 
     # 输出响应数据
-    print(response.text)
+    logger.info(response.text)
 
 
 def image_match(driver, target):
-    print("开始进行图片匹配2")
+    logger.info("开始进行图片匹配2")
     # 获取模板的二进制截图数据
     template_binary = driver.get_screenshot_as_png()
     try:
@@ -38,7 +40,7 @@ def image_match(driver, target):
         with open(target, 'rb') as f:
             target_binary = f.read()
     except FileNotFoundError:
-        print(f"未找到目标图片文件: {target}")
+        logger.error(f"未找到目标图片文件: {target}")
         return None
 
     # 构造请求文件数据
@@ -48,7 +50,7 @@ def image_match(driver, target):
     }
 
     # 发起请求
-    print("开始发送请求")
+    logger.info("开始发送请求")
     response = requests.post(URL, files=files)
 
     # 检查响应状态
@@ -57,25 +59,25 @@ def image_match(driver, target):
 
     try:
         # 解析 JSON 数据
-        print("开始解析响应数据")
+        logger.info("开始解析响应数据")
         clean_text = response.text.strip()
-        print("响应内容:", clean_text)
+        logger.info(f"响应内容: {clean_text}")
         json_data = json.loads(clean_text)
-        print(json_data)
+        logger.info(json_data)
         pos = json_data.get('pos')
-        print(pos)
+        logger.info(pos)
         result = [pos[0], pos[1]]
         return result
     except json.JSONDecodeError:
-        print("响应内容不是有效的 JSON 格式，响应内容为:", response.text)
+        logger.error(f"响应内容不是有效的 JSON 格式，响应内容为: {response.text}")
         return None
 
 
 def click_by_image(driver, target):
-    print("开始进行图片匹配1")
+    logger.info("开始进行图片匹配1")
     result = image_match(driver, target)
     if result:
-        print("点击位置:", result)
+        logger.info(f"点击位置: {result}")
         driver.tap([(result[0], result[1])], 200)
         return True
     return False

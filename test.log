@@ -1,0 +1,959 @@
+2025-05-09 15:57:07,069 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 15:57:07,151 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 15:57:07,151 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 15:57:07,151 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 15:57:07,185 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 15:57:07,185 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 15:57:07,185 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 15:57:07,226 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 15:57:07,226 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 15:57:07,226 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 15:57:07,227 - INFO - 添加命令行选项: --device-udid
+2025-05-09 16:00:14,978 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 16:00:15,039 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:00:15,040 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:00:15,040 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:00:15,074 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:00:15,074 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:00:15,075 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:00:15,110 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:00:15,110 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:00:15,110 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:00:15,111 - INFO - 添加命令行选项: --device-udid
+2025-05-09 16:01:50,714 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 16:01:50,766 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:01:50,766 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:01:50,766 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:01:50,799 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:01:50,800 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:01:50,800 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:01:50,839 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:01:50,840 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:01:50,840 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:01:50,841 - INFO - 添加命令行选项: --device-udid
+2025-05-09 16:01:51,101 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:01:51,101 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:01:51,101 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:01:51,101 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-09 16:01:51,101 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-09 16:01:51,102 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-09 16:01:51,176 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-09 16:02:20,693 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-09 16:02:21,244 - INFO - 释放设备: R5CR10V329H
+2025-05-09 16:02:21,244 - INFO - 设备 R5CR10V329H 已释放
+2025-05-09 16:02:21,244 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-09 16:28:09,735 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 16:28:09,789 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:28:09,789 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:28:09,789 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:28:09,821 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:28:09,821 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:28:09,821 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:28:09,861 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:28:09,861 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:28:09,862 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:28:09,863 - INFO - 添加命令行选项: --device-udid
+2025-05-09 16:28:10,106 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:28:10,106 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:28:10,107 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:28:10,107 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-09 16:28:10,107 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-09 16:28:10,108 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-09 16:28:10,177 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-09 16:28:39,296 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-09 16:28:39,726 - INFO - 释放设备: R5CR10V329H
+2025-05-09 16:28:39,726 - INFO - 设备 R5CR10V329H 已释放
+2025-05-09 16:28:39,726 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-09 16:36:27,008 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 16:36:27,065 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:36:27,065 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:36:27,065 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:36:27,099 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:36:27,099 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:36:27,099 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:36:27,132 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:36:27,132 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:36:27,133 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:36:27,134 - INFO - 添加命令行选项: --device-udid
+2025-05-09 16:36:27,367 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:36:27,367 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:36:27,368 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:36:27,368 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-09 16:36:27,368 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-09 16:36:27,370 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-09 16:36:27,458 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-09 16:36:56,549 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-09 16:36:56,988 - INFO - 释放设备: R5CR10V329H
+2025-05-09 16:36:56,988 - INFO - 设备 R5CR10V329H 已释放
+2025-05-09 16:36:56,988 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-09 16:49:51,798 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 16:49:51,882 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:49:51,882 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:49:51,883 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:49:51,918 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:49:51,918 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:49:51,918 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:49:51,955 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:49:51,956 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:49:51,956 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:49:51,957 - INFO - 添加命令行选项: --device-udid
+2025-05-09 16:49:52,384 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:49:52,385 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:49:52,385 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:49:52,385 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-09 16:49:52,385 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-09 16:49:52,387 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-09 16:49:52,468 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-09 16:50:20,254 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-09 16:50:20,886 - INFO - 释放设备: R5CR10V329H
+2025-05-09 16:50:20,887 - INFO - 设备 R5CR10V329H 已释放
+2025-05-09 16:50:20,887 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-09 16:59:40,549 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 16:59:40,600 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:59:40,600 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:59:40,600 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:59:40,632 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:59:40,632 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:59:40,632 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:59:40,665 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:59:40,665 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:59:40,666 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:59:40,666 - INFO - 添加命令行选项: --device-udid
+2025-05-09 16:59:40,903 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 16:59:40,904 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 16:59:40,904 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 16:59:40,904 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-09 16:59:40,904 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-09 16:59:40,906 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-09 16:59:40,980 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-09 17:00:00,647 - INFO - 获取到的文本: 北京 · api
+2025-05-09 17:00:03,379 - INFO - 获取到的文本: api
+2025-05-09 17:00:03,380 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-09 17:00:03,794 - INFO - 释放设备: R5CR10V329H
+2025-05-09 17:00:03,794 - INFO - 设备 R5CR10V329H 已释放
+2025-05-09 17:00:03,794 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-09 17:23:47,275 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 17:23:47,345 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:23:47,345 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:23:47,345 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:23:47,383 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:23:47,383 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:23:47,383 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:23:47,429 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:23:47,429 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:23:47,429 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:23:47,430 - INFO - 添加命令行选项: --device-udid
+2025-05-09 17:25:24,879 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 17:25:24,952 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:25:24,953 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:25:24,953 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:25:24,997 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:25:24,998 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:25:24,998 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:25:25,041 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:25:25,041 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:25:25,041 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:25:25,043 - INFO - 添加命令行选项: --device-udid
+2025-05-09 17:25:25,465 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:25:25,466 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:25:25,466 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:25:25,466 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-09 17:25:25,466 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-09 17:25:25,467 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-09 17:25:25,552 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-09 17:25:39,053 - INFO - 点击搜索tab
+2025-05-09 17:25:42,733 - INFO - 点击搜索按钮
+2025-05-09 17:25:46,713 - INFO - 点击第一个牛人卡片
+2025-05-09 17:25:48,989 - INFO - 点击收藏按钮
+2025-05-09 17:25:50,387 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-09 17:25:50,981 - INFO - 释放设备: R5CR10V329H
+2025-05-09 17:25:50,981 - INFO - 设备 R5CR10V329H 已释放
+2025-05-09 17:25:50,982 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-09 17:31:41,171 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 17:31:41,234 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:31:41,234 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:31:41,234 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:31:41,270 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:31:41,271 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:31:41,271 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:31:41,308 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:31:41,309 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:31:41,309 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:31:41,310 - INFO - 添加命令行选项: --device-udid
+2025-05-09 17:31:41,578 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:31:41,578 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:31:41,578 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:31:41,578 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-09 17:31:41,578 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-09 17:31:41,579 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-09 17:31:41,654 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-09 17:31:52,779 - INFO - 点击搜索tab
+2025-05-09 17:31:55,736 - INFO - 点击搜索框
+2025-05-09 17:31:56,506 - INFO - 输入搜索关键词: 3年经验
+2025-05-09 17:31:57,506 - INFO - 点击搜索按钮
+2025-05-09 17:31:59,679 - INFO - 点击排序筛选项
+2025-05-09 17:32:01,132 - INFO - 选择活跃优先
+2025-05-09 17:32:03,168 - INFO - 点击学历筛选项
+2025-05-09 17:32:04,943 - INFO - 选择离职-随时到岗
+2025-05-09 17:32:05,677 - INFO - 点击确认按钮
+2025-05-09 17:32:09,047 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-09 17:32:09,564 - INFO - 释放设备: R5CR10V329H
+2025-05-09 17:32:09,565 - INFO - 设备 R5CR10V329H 已释放
+2025-05-09 17:32:09,565 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-09 17:44:07,827 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 17:44:07,881 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:44:07,881 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:44:07,881 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:44:07,915 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:44:07,916 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:44:07,916 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:44:07,950 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:44:07,950 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:44:07,951 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:44:07,953 - INFO - 添加命令行选项: --device-udid
+2025-05-09 17:45:28,709 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 17:45:28,779 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:45:28,779 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:45:28,779 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:45:28,819 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:45:28,819 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:45:28,819 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:45:28,861 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:45:28,862 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:45:28,862 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:45:28,863 - INFO - 添加命令行选项: --device-udid
+2025-05-09 17:45:29,180 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:45:29,181 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:45:29,181 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:45:29,181 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-09 17:45:29,181 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-09 17:45:29,182 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-09 17:45:29,240 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-09 17:45:42,954 - INFO - 点击搜索tab
+2025-05-09 17:45:43,639 - INFO - 点击我的订阅tab
+2025-05-09 17:45:44,402 - INFO - 点击第一个牛人卡片
+2025-05-09 17:45:45,896 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-09 17:45:46,317 - INFO - 释放设备: R5CR10V329H
+2025-05-09 17:45:46,317 - INFO - 设备 R5CR10V329H 已释放
+2025-05-09 17:45:46,317 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-09 17:49:20,142 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-09 17:49:20,197 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:49:20,197 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:49:20,197 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:49:20,229 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:49:20,230 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:49:20,230 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:49:20,262 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:49:20,262 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:49:20,262 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:49:20,263 - INFO - 添加命令行选项: --device-udid
+2025-05-09 17:49:20,528 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-09 17:49:20,529 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-09 17:49:20,529 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-09 17:49:20,529 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-09 17:49:20,529 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-09 17:49:20,530 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-09 17:49:20,600 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-09 17:49:31,973 - INFO - 点击搜索tab
+2025-05-09 17:49:33,953 - INFO - 点击我的订阅tab
+2025-05-09 17:49:34,640 - INFO - 点击第一个牛人卡片
+2025-05-09 17:49:36,082 - INFO - 点击转发操作父容器
+2025-05-09 17:49:37,680 - INFO - 点击选择其他按钮
+2025-05-09 17:49:37,683 - INFO - 切换到原生应用上下文
+2025-05-09 17:49:39,144 - INFO - 点击同事搜索框
+2025-05-09 17:49:41,098 - INFO - 输入同事搜索关键词: 马
+2025-05-09 17:49:44,444 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-09 17:49:44,957 - INFO - 释放设备: R5CR10V329H
+2025-05-09 17:49:44,957 - INFO - 设备 R5CR10V329H 已释放
+2025-05-09 17:49:44,957 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 10:07:25,383 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 10:07:25,451 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:07:25,452 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:07:25,452 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:07:25,488 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:07:25,489 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:07:25,489 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:07:25,524 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:07:25,524 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:07:25,524 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:07:25,525 - INFO - 添加命令行选项: --device-udid
+2025-05-12 10:07:25,881 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:07:25,882 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:07:25,882 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:07:25,882 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 10:07:25,882 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 10:07:25,883 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 10:07:25,969 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 10:07:44,211 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 10:07:44,610 - INFO - 释放设备: R5CR10V329H
+2025-05-12 10:07:44,610 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 10:07:44,610 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 10:09:42,249 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 10:09:42,318 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:09:42,318 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:09:42,318 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:09:42,353 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:09:42,353 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:09:42,353 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:09:42,392 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:09:42,392 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:09:42,392 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:09:42,393 - INFO - 添加命令行选项: --device-udid
+2025-05-12 10:09:42,702 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:09:42,703 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:09:42,703 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:09:42,703 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 10:09:42,703 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 10:09:42,704 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 10:09:42,774 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 10:09:53,744 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 10:09:54,149 - INFO - 释放设备: R5CR10V329H
+2025-05-12 10:09:54,149 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 10:09:54,150 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 10:11:11,436 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 10:11:11,501 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:11:11,503 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:11:11,503 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:11:11,537 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:11:11,549 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:11:11,549 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:11:11,586 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:11:11,592 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:11:11,592 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:11:11,593 - INFO - 添加命令行选项: --device-udid
+2025-05-12 10:11:11,872 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:11:11,872 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:11:11,872 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:11:11,872 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 10:11:11,872 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 10:11:11,873 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 10:11:11,962 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 10:11:31,148 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 10:11:31,514 - INFO - 释放设备: R5CR10V329H
+2025-05-12 10:11:31,514 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 10:11:31,514 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 10:12:26,437 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 10:12:26,493 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:12:26,493 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:12:26,493 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:12:26,524 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:12:26,525 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:12:26,525 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:12:26,562 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:12:26,562 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:12:26,562 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:12:26,563 - INFO - 添加命令行选项: --device-udid
+2025-05-12 10:12:26,804 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:12:26,804 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:12:26,804 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:12:26,804 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 10:12:26,805 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 10:12:26,806 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 10:12:26,867 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 10:12:46,793 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 10:12:47,252 - INFO - 释放设备: R5CR10V329H
+2025-05-12 10:12:47,252 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 10:12:47,252 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 10:30:03,476 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 10:30:03,511 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:30:03,512 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:30:03,512 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:30:03,543 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:30:03,543 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:30:03,544 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:30:03,582 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:30:03,583 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:30:03,583 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:30:03,584 - INFO - 添加命令行选项: --device-udid
+2025-05-12 10:32:03,028 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 10:32:03,079 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:32:03,079 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:32:03,079 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:32:03,114 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:32:03,115 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:32:03,115 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:32:03,149 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:32:03,149 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:32:03,149 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:32:03,150 - INFO - 添加命令行选项: --device-udid
+2025-05-12 10:32:03,415 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:32:03,416 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:32:03,416 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:32:03,416 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 10:32:03,417 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 10:32:03,418 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 10:32:03,502 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 10:32:21,142 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 10:32:21,607 - INFO - 释放设备: R5CR10V329H
+2025-05-12 10:32:21,607 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 10:32:21,608 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 10:34:55,985 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 10:34:56,035 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:34:56,035 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:34:56,036 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:34:56,066 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:34:56,066 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:34:56,066 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:34:56,099 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:34:56,100 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:34:56,100 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:34:56,101 - INFO - 添加命令行选项: --device-udid
+2025-05-12 10:34:56,343 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:34:56,343 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:34:56,343 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:34:56,344 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 10:34:56,344 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 10:34:56,344 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 10:34:56,416 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 10:35:13,832 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 10:35:14,241 - INFO - 释放设备: R5CR10V329H
+2025-05-12 10:35:14,241 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 10:35:14,241 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 10:43:48,507 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 10:43:48,577 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:43:48,577 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:43:48,577 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:43:48,612 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:43:48,612 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:43:48,612 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:43:48,652 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:43:48,652 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:43:48,652 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:43:48,653 - INFO - 添加命令行选项: --device-udid
+2025-05-12 10:43:48,968 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 10:43:48,969 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 10:43:48,969 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 10:43:48,969 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 10:43:48,969 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 10:43:48,970 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 10:43:49,041 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 10:44:05,297 - INFO - 候选人列表中第一个候选人的信息: {'name': '魏帅科', 'basic_info': '25岁  |  3年  |  本科  |  7-8K', 'skills': ['确保生产', '技术文档', '调试', 'PLC程序设计'], 'description': '1.负责机器人轨迹的精确调试，确保机器人的运动精度和效率达到项目要求。2.执行图像采集任务，利用专业软件对采集到的图像数据进行深入分析和处理。3.开展数据分析工作，通过对实验数据的统计和评估，优化电气'}
+2025-05-12 10:44:06,927 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 10:44:07,363 - INFO - 释放设备: R5CR10V329H
+2025-05-12 10:44:07,363 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 10:44:07,363 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 11:45:52,068 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 11:45:52,140 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 11:45:52,140 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 11:45:52,141 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 11:45:52,176 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 11:45:52,177 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 11:45:52,177 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 11:45:52,215 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 11:45:52,215 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 11:45:52,215 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 11:45:52,216 - INFO - 添加命令行选项: --device-udid
+2025-05-12 11:45:52,542 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 11:45:52,542 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 11:45:52,542 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 11:45:52,543 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 11:45:52,543 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 11:45:52,544 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 11:45:52,620 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 11:46:10,995 - INFO - 候选人列表中第一个候选人的信息: {'name': '辛桓同', 'basic_info': '22年毕业  |  本科  |  面议', 'skills': ['团队协作', '数据处理', 'Python', '设计', '技术'], 'description': '我们将根据您的选择，为您优化推荐求职者'}
+2025-05-12 11:46:14,137 - INFO - 详情页牛人信息: 姓名=辛桓同, 工作状态=离校-随时到岗, 学历=本科
+2025-05-12 11:46:15,567 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 11:46:15,963 - INFO - 释放设备: R5CR10V329H
+2025-05-12 11:46:15,963 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 11:46:15,963 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 14:06:57,478 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 14:06:57,557 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:06:57,558 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:06:57,558 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:06:57,647 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:06:57,648 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:06:57,662 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:06:57,776 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:06:57,776 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:06:57,776 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:06:57,778 - INFO - 添加命令行选项: --device-udid
+2025-05-12 14:06:58,306 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:06:58,307 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:06:58,307 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:06:58,308 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 14:06:58,308 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 14:06:58,310 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 14:06:58,405 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 14:06:58,922 - INFO - 释放设备: R5CR10V329H
+2025-05-12 14:06:58,923 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 14:06:58,923 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 14:07:29,645 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 14:07:29,744 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:07:29,745 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:07:29,745 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:07:29,827 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:07:29,827 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:07:29,827 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:07:29,883 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:07:29,883 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:07:29,884 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:07:29,885 - INFO - 添加命令行选项: --device-udid
+2025-05-12 14:07:30,471 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:07:30,471 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:07:30,471 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:07:30,471 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 14:07:30,471 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 14:07:30,472 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 14:07:30,568 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 14:08:04,591 - INFO - 候选人列表中第一个候选人的信息: {'name': '王泽崇', 'basic_info': '4年  |  大专  |  面议', 'work_exp': '4年', 'degree': '大专', 'salary': '面议', 'skills': ['Django', 'Flask', 'Python', 'MySQL'], 'description': '我们将根据您的选择，为您优化推荐求职者'}
+2025-05-12 14:08:07,549 - INFO - 详情页牛人信息: 姓名=王泽崇, 工作状态=离职-随时到岗, 学历=大专
+2025-05-12 14:08:09,037 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 14:08:09,562 - INFO - 释放设备: R5CR10V329H
+2025-05-12 14:08:09,562 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 14:08:09,562 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 14:36:08,487 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 14:36:08,556 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:36:08,556 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:36:08,556 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:36:08,598 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:36:08,598 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:36:08,599 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:36:08,640 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:36:08,640 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:36:08,641 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:36:08,642 - INFO - 添加命令行选项: --device-udid
+2025-05-12 14:36:08,944 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 14:36:08,944 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 14:36:08,945 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 14:36:08,945 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 14:36:08,945 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 14:36:08,946 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 14:36:09,028 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 14:36:29,691 - INFO - 候选人列表中第一个候选人的信息: {'name': '王泽崇', 'basic_info': '4年  |  大专  |  面议', 'work_exp': '4年', 'degree': '大专', 'salary': '面议', 'skills': ['Django', 'Flask', 'Python', 'MySQL'], 'description': '我们将根据您的选择，为您优化推荐求职者'}
+2025-05-12 14:36:32,841 - INFO - 详情页牛人信息: 姓名=王泽崇, 期望薪资=面议, 学历=大专
+2025-05-12 14:36:34,224 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 14:36:34,616 - INFO - 释放设备: R5CR10V329H
+2025-05-12 14:36:34,617 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 14:36:34,617 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 16:45:20,608 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 16:45:20,755 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:45:20,758 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:45:20,759 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:45:20,911 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:45:20,911 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:45:20,912 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:45:21,052 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:45:21,054 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:45:21,054 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:45:21,055 - INFO - 添加命令行选项: --device-udid
+2025-05-12 16:45:22,115 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:45:22,116 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:45:22,116 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:45:22,116 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 16:45:22,116 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 16:45:22,119 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 16:45:22,269 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 16:45:43,193 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 16:45:43,638 - INFO - 释放设备: R5CR10V329H
+2025-05-12 16:45:43,638 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 16:45:43,638 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 16:47:00,050 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 16:47:00,145 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:47:00,145 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:47:00,145 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:47:00,203 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:47:00,203 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:47:00,203 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:47:00,258 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:47:00,259 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:47:00,259 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:47:00,262 - INFO - 添加命令行选项: --device-udid
+2025-05-12 16:47:00,686 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:47:00,686 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:47:00,686 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:47:00,686 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 16:47:00,686 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 16:47:00,687 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 16:47:00,771 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 16:47:24,636 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 16:47:25,089 - INFO - 释放设备: R5CR10V329H
+2025-05-12 16:47:25,089 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 16:47:25,089 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 16:49:13,215 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 16:49:13,405 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:49:13,406 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:49:13,406 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:49:13,465 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:49:13,465 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:49:13,465 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:49:13,533 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:49:13,534 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:49:13,534 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:49:13,537 - INFO - 添加命令行选项: --device-udid
+2025-05-12 16:49:14,432 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:49:14,433 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:49:14,433 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:49:14,433 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 16:49:14,433 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 16:49:14,436 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 16:49:14,542 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 16:49:38,578 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 16:49:39,009 - INFO - 释放设备: R5CR10V329H
+2025-05-12 16:49:39,009 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 16:49:39,009 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 16:50:49,123 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 16:50:49,195 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:50:49,196 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:50:49,196 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:50:49,244 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:50:49,244 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:50:49,244 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:50:49,289 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:50:49,290 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:50:49,290 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:50:49,292 - INFO - 添加命令行选项: --device-udid
+2025-05-12 16:50:49,615 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:50:49,616 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:50:49,616 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:50:49,616 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 16:50:49,616 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 16:50:49,618 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 16:50:49,703 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 16:51:16,072 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 16:51:16,456 - INFO - 释放设备: R5CR10V329H
+2025-05-12 16:51:16,456 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 16:51:16,457 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 16:53:31,614 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 16:53:31,679 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:53:31,680 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:53:31,680 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:53:31,730 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:53:31,730 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:53:31,730 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:53:31,853 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:53:31,854 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:53:31,854 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:53:31,857 - INFO - 添加命令行选项: --device-udid
+2025-05-12 16:53:33,075 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:53:33,076 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:53:33,076 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:53:33,076 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 16:53:33,076 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 16:53:33,078 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 16:53:33,187 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 16:54:02,619 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 16:54:03,016 - INFO - 释放设备: R5CR10V329H
+2025-05-12 16:54:03,016 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 16:54:03,016 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 16:55:40,195 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 16:55:40,276 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:55:40,276 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:55:40,276 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:55:40,323 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:55:40,323 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:55:40,323 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:55:40,367 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:55:40,367 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:55:40,367 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:55:40,368 - INFO - 添加命令行选项: --device-udid
+2025-05-12 16:55:40,734 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:55:40,734 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:55:40,734 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:55:40,734 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 16:55:40,735 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 16:55:40,736 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 16:55:40,820 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 16:56:14,668 - WARNING - 第 1 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 16:56:25,219 - WARNING - 第 2 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 16:56:35,376 - WARNING - 第 3 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 16:56:35,376 - ERROR - 经过 3 次尝试，仍未找到元素
+2025-05-12 16:56:46,468 - WARNING - 第 1 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 16:56:56,567 - WARNING - 第 2 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 16:57:00,171 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 16:57:00,694 - INFO - 释放设备: R5CR10V329H
+2025-05-12 16:57:00,695 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 16:57:00,695 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 16:59:45,866 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 16:59:45,929 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:59:45,930 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:59:45,930 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:59:45,963 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:59:45,963 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:59:45,963 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:59:45,998 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:59:45,998 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:59:45,998 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:59:45,999 - INFO - 添加命令行选项: --device-udid
+2025-05-12 16:59:46,261 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 16:59:46,261 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 16:59:46,262 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 16:59:46,262 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 16:59:46,262 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 16:59:46,263 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 16:59:46,336 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 17:00:18,364 - WARNING - 第 1 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:00:28,763 - WARNING - 第 2 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:00:38,963 - WARNING - 第 3 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:00:38,963 - ERROR - 经过 3 次尝试，仍未找到元素
+2025-05-12 17:00:42,520 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 17:00:42,965 - INFO - 释放设备: R5CR10V329H
+2025-05-12 17:00:42,965 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 17:00:42,965 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 17:04:15,345 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 17:04:15,399 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:04:15,400 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:04:15,400 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:04:15,434 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:04:15,435 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:04:15,435 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:04:15,471 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:04:15,472 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:04:15,472 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:04:15,474 - INFO - 添加命令行选项: --device-udid
+2025-05-12 17:04:15,739 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:04:15,739 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:04:15,739 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:04:15,739 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 17:04:15,739 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 17:04:15,740 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 17:04:15,879 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 17:04:48,973 - WARNING - 第 1 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:04:59,465 - WARNING - 第 2 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:05:09,614 - WARNING - 第 3 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:05:09,615 - ERROR - 经过 3 次尝试，仍未找到元素
+2025-05-12 17:05:16,070 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 17:05:16,438 - INFO - 释放设备: R5CR10V329H
+2025-05-12 17:05:16,439 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 17:05:16,439 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 17:06:59,280 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 17:06:59,337 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:06:59,337 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:06:59,337 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:06:59,370 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:06:59,371 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:06:59,371 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:06:59,407 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:06:59,408 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:06:59,408 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:06:59,409 - INFO - 添加命令行选项: --device-udid
+2025-05-12 17:06:59,702 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:06:59,703 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:06:59,703 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:06:59,703 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 17:06:59,703 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 17:06:59,704 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 17:06:59,778 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 17:07:35,964 - WARNING - 第 1 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:07:46,264 - WARNING - 第 2 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:07:56,864 - WARNING - 第 3 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:07:56,865 - ERROR - 经过 3 次尝试，仍未找到元素
+2025-05-12 17:08:06,357 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 17:08:06,826 - INFO - 释放设备: R5CR10V329H
+2025-05-12 17:08:06,826 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 17:08:06,826 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 17:21:16,469 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 17:21:16,604 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:21:16,605 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:21:16,605 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:21:16,694 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:21:16,695 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:21:16,695 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:21:16,761 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:21:16,761 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:21:16,761 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:21:16,763 - INFO - 添加命令行选项: --device-udid
+2025-05-12 17:21:17,381 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:21:17,382 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:21:17,382 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:21:17,383 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 17:21:17,383 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 17:21:17,384 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 17:21:17,509 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 17:21:59,015 - WARNING - 第 1 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:22:09,126 - WARNING - 第 2 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:22:19,216 - WARNING - 第 3 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:22:19,216 - ERROR - 经过 3 次尝试，仍未找到元素
+2025-05-12 17:22:44,078 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 17:22:44,506 - INFO - 释放设备: R5CR10V329H
+2025-05-12 17:22:44,506 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 17:22:44,506 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 17:25:40,011 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 17:25:40,090 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:25:40,090 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:25:40,090 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:25:40,130 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:25:40,130 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:25:40,130 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:25:40,172 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:25:40,173 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:25:40,173 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:25:40,175 - INFO - 添加命令行选项: --device-udid
+2025-05-12 17:25:40,550 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:25:40,551 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:25:40,551 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:25:40,551 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 17:25:40,551 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 17:25:40,552 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 17:25:40,630 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 17:26:16,229 - WARNING - 第 1 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:26:26,522 - WARNING - 第 2 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:26:36,715 - WARNING - 第 3 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:26:36,716 - ERROR - 经过 3 次尝试，仍未找到元素
+2025-05-12 17:27:03,026 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 17:27:03,406 - INFO - 释放设备: R5CR10V329H
+2025-05-12 17:27:03,406 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 17:27:03,406 - INFO - release_device设备状态: R5CR10V329H - idle
+2025-05-12 17:30:04,521 - INFO - APP_PATH: /Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk
+2025-05-12 17:30:04,759 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:30:04,759 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:30:04,760 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:30:04,858 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:30:04,859 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:30:04,859 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:30:04,940 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:30:04,941 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:30:04,941 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:30:04,943 - INFO - 添加命令行选项: --device-udid
+2025-05-12 17:30:06,232 - INFO - get_connected_devices获取到的设备列表: ['R5CR10V329H']
+2025-05-12 17:30:06,233 - INFO - DeviceManagerinit当前设备列表: ['R5CR10V329H']
+2025-05-12 17:30:06,234 - INFO - DeviceManagerinit当前设备状态: {'R5CR10V329H': 'idle'}
+2025-05-12 17:30:06,234 - INFO - get_idle_device设备状态: R5CR10V329H - idle
+2025-05-12 17:30:06,235 - INFO - 选择到的空闲设备: R5CR10V329H
+2025-05-12 17:30:06,237 - INFO - 创建 driver，使用设备: R5CR10V329H
+2025-05-12 17:30:06,386 - INFO - chromedriver_path: /Users/admin/PycharmProjects/pythonProject/chromedriver
+2025-05-12 17:30:46,866 - WARNING - 第 1 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:30:57,369 - WARNING - 第 2 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:31:07,616 - WARNING - 第 3 次尝试查找元素失败：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Users/admin/.nvm/versions/node/v22.15.0/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2025-05-12 17:31:07,617 - ERROR - 经过 3 次尝试，仍未找到元素
+2025-05-12 17:31:52,889 - INFO - 销毁 driver，使用设备: R5CR10V329H
+2025-05-12 17:31:53,328 - INFO - 释放设备: R5CR10V329H
+2025-05-12 17:31:53,329 - INFO - 设备 R5CR10V329H 已释放
+2025-05-12 17:31:53,329 - INFO - release_device设备状态: R5CR10V329H - idle

@@ -2,7 +2,7 @@ import pytest
 import os
 from pytest_html import extras
 
-
+#没有调用了
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield

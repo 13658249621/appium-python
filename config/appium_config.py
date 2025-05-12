@@ -1,28 +1,8 @@
-# # appium_config.py
-# import os
-#
-# # Appium 服务器地址和端口
-# APPIUM_SERVER_URL = 'http://localhost:4723/wd/hub'
-#
-# # 设备和应用配置
-# desired_caps = {
-#     'platformVersion': '10',  # 设置为手机或模拟器Android版本
-#     'platformName': 'Android',  # 设置平台
-#     'deviceName': 'e5f430b',  # Android可以随便填写
-#     'udid': 'e5f430b',  # Android设备的唯一标识符
-#     # 'appPackage': 'com.hpbr.bosszhipin',  # apk包名
-#     # 'appActivity': '.module.main.activity.MainActivity',  # appActivity
-#     'app': '/Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk',
-#     'unicodeKeyboard': True,
-#     'resetKeyboard': True,
-#     'noReset': True,
-#     'newCommandTimeout': 6000,
-#     'forceAppLaunch': True,
-#     'shouldTerminateApp': True,
-#     'automationName': 'UiAutomator2'
-# }
 import os
-from devices.device_utils import get_connected_devices, create_desired_caps, DeviceManager
+from devices.device_utils import  create_desired_caps, DeviceManager
+from utils.logger import get_logger
+
+logger = get_logger()
 
 # Appium 服务器地址和端口
 APPIUM_SERVER_URL = 'http://127.0.0.1:4725/wd/hub'
@@ -31,7 +11,7 @@ APPIUM_SERVER_URL = 'http://127.0.0.1:4725/wd/hub'
 # 应用信息
 APP_PATH = os.path.join(os.getcwd(), "app", "apk_files",
                         "/Users/admin/Downloads/13.080_dev_boss_qa_debug_Arm64_dev_1308.apk")
-print(f"APP_PATH: {APP_PATH}")
+logger.info(f"APP_PATH: {APP_PATH}")
 APP_PACKAGE = "com.hpbr.bosszhipin"
 APP_ACTIVITY = ".module.main.activity.MainActivity"
 
@@ -41,10 +21,8 @@ device_manager = DeviceManager()
 def get_desired_caps(device_udid=None):
     if device_udid:
         return create_desired_caps(device_udid, APP_PATH, APP_PACKAGE, APP_ACTIVITY)
-    # devices = get_connected_devices()
-    # print(f"第一获取到的设备列表: {devices}")
     device = device_manager.get_idle_device()
-    print(f"获取到的空闲设备: {device}")
+    logger.info(f"获取到的空闲设备: {device}")
     if device:
         return create_desired_caps(device, APP_PATH, APP_PACKAGE, APP_ACTIVITY)
     return None

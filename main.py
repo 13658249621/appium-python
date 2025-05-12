@@ -3,6 +3,7 @@ import warnings
 from urllib3.exceptions import NotOpenSSLWarning
 from appium import webdriver
 from selenium.webdriver.chrome.options import Options
+from utils.logger import get_logger
 
 
 # 忽略 urllib3 的 NotOpenSSLWarning 警告
@@ -26,6 +27,7 @@ desired_caps = {
 }
 
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+logger = get_logger()
 
 try:
     # 这里可以编写具体的测试步骤
@@ -35,4 +37,5 @@ try:
     sleep(3)
     pass
 finally:
+    logger.info("关闭driver")
     driver.quit()

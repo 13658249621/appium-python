@@ -3,6 +3,9 @@ import os
 from appium import webdriver
 import time
 from threading import Thread, Lock
+from utils.logger import get_logger
+
+logger = get_logger()
 
 # 获取所有连接的安卓设备的 UDID
 def get_connected_devices():
@@ -15,13 +18,13 @@ def get_connected_devices():
             if line.strip():
                 udid = line.split('\t')[0]
                 devices.append(udid)
-        print(f"get_connected_devices获取到的设备列表: {devices}")
+        logger.info(f"get_connected_devices获取到的设备列表: {devices}")
         return devices
     except subprocess.CalledProcessError:
-        print("执行 adb devices 命令出错")
+        logger.error("执行 adb devices 命令出错")
         return []
     except FileNotFoundError:
-        print("未找到 adb 命令，请检查 ANDROID_HOME 环境变量")
+        logger.error("未找到 adb 命令，请检查 ANDROID_HOME 环境变量")
         return []
 
 # 获取设备信息
@@ -33,7 +36,7 @@ def get_device_info(udid):
         version = version_result.stdout.strip()
         return {'udid': udid, 'version': version}
     except subprocess.CalledProcessError:
-        print(f"获取设备 {udid} 信息出错")
+        logger.error(f"获取设备 {udid} 信息出错")
         return None
 
 # 创建所需的 Appium 配置
@@ -46,7 +49,7 @@ def create_desired_caps(udid, app_path, app_package, app_activity):
         project_root_dir = os.path.dirname(current_script_dir)
         # 拼接 chromedriver 的绝对路径
         chromedriver_path = os.path.join(project_root_dir, 'chromedriver')
-        print(f"chromedriver_path: {chromedriver_path}")
+        logger.info(f"chromedriver_path: {chromedriver_path}")
         desired_caps = {
             "platformName": "Android",
             "platformVersion": device_info['version'],
@@ -56,7 +59,7 @@ def create_desired_caps(udid, app_path, app_package, app_activity):
             # "appActivity": app_activity,
             "udid": udid,
             "noReset": True,
-            'chromedriverExecutable': chromedriver_path,
+            # 'chromedriverExecutable': chromedriver_path
         }
         return desired_caps
     return None
@@ -75,15 +78,15 @@ class DeviceManager:
 
     def __init__(self):
         self.devices = get_connected_devices()
-        print(f"DeviceManagerinit当前设备列表: {self.devices}")
+        logger.info(f"DeviceManagerinit当前设备列表: {self.devices}")
         self.device_status = {device: 'idle' for device in self.devices}
-        print(f"DeviceManagerinit当前设备状态: {self.device_status}")
+        logger.info(f"DeviceManagerinit当前设备状态: {self.device_status}")
 
     # 获取空闲设备
     def get_idle_device(self):
         with self._lock:
             for device, status in self.device_status.items():
-                print(f"get_idle_device设备状态: {device} - {status}")
+                logger.info(f"get_idle_device设备状态: {device} - {status}")
                 if status == 'idle':
                     self.device_status[device] = 'busy'
                     return device
@@ -95,8 +98,8 @@ class DeviceManager:
             device = desired_caps.get('udid')
             if device in self.device_status:
                 self.device_status[device] = 'idle'
-                print(f"设备 {device} 已释放")
-                print(f"release_device设备状态: {device} - {self.device_status[device]}")
+                logger.info(f"设备 {device} 已释放")
+                logger.info(f"release_device设备状态: {device} - {self.device_status[device]}")
             else:
-                print(f"未找到设备 {device} 的状态信息，无法释放")
+                logger.error(f"未找到设备 {device} 的状态信息，无法释放")
 

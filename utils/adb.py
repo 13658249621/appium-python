@@ -1,5 +1,7 @@
 import subprocess
+from utils.logger import get_logger
 
+logger = get_logger()
 
 class AdbDeviceUtils:
     def __init__(self, adb_path):
@@ -10,10 +12,10 @@ class AdbDeviceUtils:
             result = subprocess.run([self.adb_path] + command, capture_output=True, text=True, check=True)
             return result.stdout.strip()
         except subprocess.CalledProcessError as e:
-            print(f"命令执行出错: {e.stderr}")
+            logger.error(f"命令执行出错: {e.stderr}")
             return None
         except FileNotFoundError:
-            print(f"未找到指定路径的 adb 命令，请检查路径: {self.adb_path}")
+            logger.error(f"未找到指定路径的 adb 命令，请检查路径: {self.adb_path}")
             return None
 
     def get_connected_devices(self):
@@ -48,4 +50,4 @@ if __name__ == "__main__":
     utils = AdbDeviceUtils(adb_path)
     device_info = utils.get_all_device_info()
     for info in device_info:
-        print(f"UDID: {info['udid']}, Android Version: {info['version']}")
+        logger.info(f"UDID: {info['udid']}, Android Version: {info['version']}")

@@ -1,18 +1,15 @@
-
-import os
 from time import sleep
 
 import allure
 
-import pytest
-from pages.home_page import HomePage
-from pages.yxgt_main_page import YxgtMainPAge
+from pages.主页.home_page import HomePage
+from pages.意向沟通.yxgt_main_page import YxgtMainPAge
 from utils.image_math import click_by_image
 from utils.screenshot_utils import take_screenshot
 
 
 
-@pytest.mark.smoke
+
 def test_login(driver):
     screenshot_path = take_screenshot(driver, test_login.__name__)
     with allure.step("添加截图到报告"):
