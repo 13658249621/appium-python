@@ -2,9 +2,13 @@
 from pages.base_page import BasePage
 
 class SearchResultPage(BasePage):
+    #== 搜索结果列表 ==
+    # 牛人卡片列表
+    CANDIDATE_CARD_LIST = ('xpath', '//android.view.ViewGroup[@resource-id="com.hpbr.bosszhipin:id/cl_search_card"]')
     # 牛人卡片(第一个)
     CANDIDATE_CARD = ('xpath', '(//android.view.ViewGroup[@resource-id="com.hpbr.bosszhipin:id/cl_search_card"])[1]')
     
+    #== 排序选择 ==
     # 排序选择按钮
     SORT_FILTER_BUTTON = ('xpath', '//android.widget.TextView[@resource-id="com.hpbr.bosszhipin:id/tv_display_name" and @text="排序"]')
     # 活跃优先选项
@@ -16,6 +20,9 @@ class SearchResultPage(BasePage):
     # 筛选界面确认按钮
     CONFIRM_BUTTON = ('id', 'com.hpbr.bosszhipin:id/btn_confirm')
     
+    def get_candidate_card_count(self):
+        return len(self.find_elements(*self.CANDIDATE_CARD_LIST))
+        
     # 点击第一个牛人卡片
     def click_first_candidate_card(self):
         self.click(*self.CANDIDATE_CARD)

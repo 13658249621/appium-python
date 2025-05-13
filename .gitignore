@@ -1,0 +1,32 @@
+# 忽略日志文件
+
+*.log
+*.out
+*.tmp
+logs/
+log/
+output/
+report/
+/reports/
+/reports/*
+
+# 忽略截图文件
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.webp
+*.tiff
+*.svg
+*.ico
+*.pdf
+*.psd
+*.ai
+*.eps
+*.raw
+*.heic
+screenshots/
+screenshot/
+images/
+img/ 

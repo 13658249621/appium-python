@@ -16,7 +16,8 @@ def test_login(driver):
     sleep(1)
     # 2. 点击我的订阅tab
     search_page.click_my_subscription_tab()
-    
+    #断言订阅卡片数量
+    assert search_page.get_subscription_card_count() > 0, "没有订阅卡片"
     # 3. 取消订阅(点击关闭订阅按钮)
     search_page.click_close_subscription_button()
     

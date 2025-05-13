@@ -13,7 +13,6 @@ logger = get_logger()
 
 
 def test_login(driver):
-    # 初始化页面对象
     home_page = HomePage(driver)
     search_main_page = SearchMainPage(driver)
     search_result_page = SearchResultPage(driver)
@@ -34,6 +33,9 @@ def test_login(driver):
     screenshot_path = take_screenshot(driver, test_login.__name__)
     with allure.step("添加截图到报告"):
         allure.attach.file(screenshot_path, name="点击搜索", attachment_type=allure.attachment_type.PNG)
+    
+    #断言搜索结果列表中牛人卡片数量
+    assert search_result_page.get_candidate_card_count() > 0, "没有搜索结果"
     
     # 3. 点击第一个牛人卡片
     search_result_page.click_first_candidate_card()

@@ -21,9 +21,11 @@ class SearchMainPage(BasePage):
     SUBSCRIBE_BUTTON = ('xpath', '(//android.widget.Button[@resource-id="com.hpbr.bosszhipin:id/btn_subscribe"])')
     # 订阅卡片上的描述文本
     SUBSCRIPTION_DESC_TEXT = ('xpath', '//android.widget.TextView[@resource-id="com.hpbr.bosszhipin:id/tv_subscribe_desc"]')
+    #订阅卡片列表
+    SUBSCRIPTION_CARD_LIST = ('xpath', '//android.view.ViewGroup[@resource-id="com.hpbr.bosszhipin:id/cl_subscribe_card"]')
     # 订阅卡片(第一个)
     SUBSCRIPTION_CARD = ('xpath', '(//android.view.ViewGroup[@resource-id="com.hpbr.bosszhipin:id/cl_subscribe_card"])[1]')
-
+    #== 搜索 ==
     def click_search_box(self):
         self.click(*self.SEARCH_BOX)
 
@@ -32,7 +34,12 @@ class SearchMainPage(BasePage):
 
     def click_search_button(self):
         self.click(*self.SEARCH_BUTTON)
-        
+    
+    #== 我的订阅 ==
+    def get_subscription_card_count(self):
+        cards = self.find_elements(*self.SUBSCRIPTION_CARD_LIST)
+        return len(cards) if cards else 0
+
     # 点击我的订阅tab
     def click_my_subscription_tab(self):
         self.click(*self.MY_SUBSCRIPTION_TAB)
@@ -47,11 +54,24 @@ class SearchMainPage(BasePage):
         
     # 从右往左滑动(取消订阅后创建新订阅)
     def swipe_right_to_left(self):
+        # 获取屏幕尺寸
+        screen_size = self.driver.get_window_size()
+        screen_width = screen_size['width']
+        
+        # 获取订阅卡片的位置
+        card = self.find_element(*self.SUBSCRIPTION_CARD)
+        card_location = card.location
+        card_y = card_location['y']
+        
+        # 计算滑动的起点和终点坐标
+        start_x = int(screen_width * 0.8)  # 起点x坐标为屏幕宽度的80%
+        end_x = int(screen_width * 0.2)    # 终点x坐标为屏幕宽度的20%
+        
         actions = ActionChains(self.driver)
         actions.w3c_actions = ActionBuilder(self.driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
-        actions.w3c_actions.pointer_action.move_to_location(922, 623)
+        actions.w3c_actions.pointer_action.move_to_location(start_x, card_y)
         actions.w3c_actions.pointer_action.pointer_down()
-        actions.w3c_actions.pointer_action.move_to_location(328, 614)
+        actions.w3c_actions.pointer_action.move_to_location(end_x, card_y)
         actions.w3c_actions.pointer_action.release()
         actions.perform()
         

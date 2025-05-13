@@ -10,7 +10,6 @@ from pages.推荐.recommend_filter_page import RecommendFilterPage
 
 logger = get_logger()
 
-@pytest.mark.smoke
 def test(driver):
     recommend_main_page = RecommendMainPage(driver)
     filter_page = RecommendFilterPage(driver)
@@ -36,13 +35,6 @@ def test(driver):
 
     # 3. 筛选条件选择
     recommend_main_page.click_filter()
-    
-    # # 性别选择
-    # while not filter_page.is_element_visible(*filter_page.MALE_OPTION):
-    #     filter_page.swipe_up(0.2) # 小幅度向上滑动
-    # filter_page.select_gender_option("男")
-    # assert filter_page.get_selected_gender_option() == "男"
-    
     # 学历选择
     max_swipes = 5  # 最大滑动次数
     swipe_count = 0
@@ -53,17 +45,6 @@ def test(driver):
         filter_page.swipe_up(0.2)
         swipe_count += 1
     filter_page.select_education_option("本科")
-    
-    # # 活跃状态选择
-    # swipe_count = 0
-    # while not filter_page.is_element_visible(*filter_page.ACTIVE_TODAY_OPTION):
-    #     if swipe_count >= max_swipes:
-    #         pytest.fail("未找到今日活跃选项")
-    #         break
-    #     filter_page.swipe_up(0.2)
-    #     swipe_count += 1
-    # filter_page.select_activity_option("今日活跃")
-    # assert filter_page.get_selected_activity_option() == "今日活跃"
     
     # 求职意向选择
     swipe_count = 0
@@ -97,6 +78,9 @@ def test(driver):
     with allure.step("确认后截图"):
         allure.attach.file(screenshot_path, name="确认后截图", attachment_type=allure.attachment_type.PNG)
     
+    #断言列表中牛人卡片数量
+    assert recommend_main_page.get_candidate_count() > 0, "没有召回牛人"
+
     #获取候选人列表所有卡片，验证卡片上展示学历与筛选条件中选择的学历一致
     candidate_info_list = recommend_main_page.get_all_candidate_info()
     for info in candidate_info_list:
