@@ -18,7 +18,7 @@ def test(driver):
     recommend_main_page.select_sort_type("最新")
     sleep(2)
     candidate_count = recommend_main_page.get_candidate_count()
-    assert len(candidate_count) > 0
+    assert candidate_count > 0
 
     recommend_main_page.select_sort_type("推荐")
     sleep(2)

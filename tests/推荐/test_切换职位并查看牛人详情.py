@@ -22,7 +22,7 @@ def test_login(driver):
         allure.attach.file(screenshot_path, name="切换职位", attachment_type=allure.attachment_type.PNG)
     #判断候选人列表是否返回了数据
     candidate_count = recommend_main_page.get_candidate_count()
-    assert len(candidate_count) > 0, "候选人卡片数量不足,无法点击"
+    assert candidate_count > 0, "候选人卡片数量不足,无法点击"
     #获取第一个候选人卡片信息
     candidate_info = recommend_main_page.get_candidate_info(0)
     logger.info(f"候选人列表中第一个候选人的信息: {candidate_info}")
