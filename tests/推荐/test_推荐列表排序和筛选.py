@@ -23,7 +23,7 @@ def test(driver):
     recommend_main_page.select_sort_type("推荐")
     sleep(2)
     candidate_count = recommend_main_page.get_candidate_count()
-    assert len(candidate_count) > 0
+    assert candidate_count > 0
     screenshot_path = take_screenshot(driver, test.__name__)
     with allure.step("排序后截图"):
         allure.attach.file(screenshot_path, name="排序后截图", attachment_type=allure.attachment_type.PNG)
