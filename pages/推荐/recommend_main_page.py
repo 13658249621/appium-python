@@ -126,7 +126,7 @@ class RecommendMainPage(BasePage):
         获取候选人数量
         :return: 候选人数量
         """
-        return self.find_elements(*self.CANDIDATE_CARD)
+        return len(self.find_elements(*self.CANDIDATE_CARD))
 
     
     def get_all_candidate_info(self):
