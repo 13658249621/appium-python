@@ -1,5 +1,5 @@
 import os
-from devices.device_utils import  create_desired_caps, DeviceManager
+from devices.device_utils import  create_desired_caps, DeviceManagerDB
 from utils.logger import get_logger
 
 logger = get_logger()
@@ -15,7 +15,7 @@ logger.info(f"APP_PATH: {APP_PATH}")
 APP_PACKAGE = "com.hpbr.bosszhipin"
 APP_ACTIVITY = ".module.main.activity.MainActivity"
 
-device_manager = DeviceManager()
+device_manager = DeviceManagerDB()
 
 
 def get_desired_caps(device_udid=None):

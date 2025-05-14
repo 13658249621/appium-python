@@ -12,32 +12,42 @@ from appium import webdriver
 from config.appium_config import APPIUM_SERVER_URL, get_desired_caps
 from utils.screenshot_utils import take_screenshot
 from utils.logger import get_logger
+from devices.device_utils import DeviceManagerDB
 
-from devices.device_utils import DeviceManager
-device_manager = DeviceManager()
+device_manager = DeviceManagerDB()
 logger = get_logger()
 
 @pytest.fixture(scope="session")
 def device_udid():
-    device_manager = DeviceManager()
-    udid = device_manager.get_idle_device()
-    logger.info(f"选择到的空闲设备: {udid}")
-    if not udid:
+    device_manager = DeviceManagerDB()
+    device = device_manager.get_idle_device()
+    logger.info(f"选择到的空闲设备: {device}")
+    if not device:
         pytest.fail("没有可用的设备")
-    yield udid
+    yield device
     # session 结束时释放设备
-    logger.info(f"释放设备: {udid}")
-    device_manager.release_device({'udid': udid})
+    logger.info(f"释放设备: {device}")
+    device_manager.release_device(device['udid'])
 
 @pytest.fixture(scope="function")
 def driver(device_udid):
     logger.info(f"创建 driver，使用设备: {device_udid}")
-    desired_caps = get_desired_caps(device_udid)
-    driver = webdriver.Remote(APPIUM_SERVER_URL, desired_caps)
-    driver.implicitly_wait(10)
-    yield driver
-    logger.info(f"销毁 driver，使用设备: {device_udid}")
-    driver.quit()
+    device_manager = DeviceManagerDB()
+    desired_caps = get_desired_caps(device_udid['udid'])
+    driver = None
+    try:
+        driver = webdriver.Remote(APPIUM_SERVER_URL, desired_caps)
+        driver.implicitly_wait(10)
+        yield driver
+    except Exception as e:
+        logger.error(f"driver fixture发生异常: {e}")
+        raise
+    finally:
+        if driver:
+            logger.info(f"销毁 driver，使用设备: {device_udid}")
+            driver.quit()
+        # 无论如何都释放设备
+        device_manager.release_device(device_udid['udid'])
 
 def pytest_addoption(parser):
     logger.info("添加命令行选项: --device-udid")
