@@ -1,5 +1,16 @@
+# Appium-Python-Client：用于移动端自动化测试
 Appium-Python-Client~=2.11.1
+# pytest：主流的Python测试框架
 pytest~=8.3.5
+# urllib3：高级HTTP客户端，用于网络请求
 urllib3~=2.4.0
+# selenium：Web自动化测试工具
 selenium~=4.32.0
+# allure-pytest：Allure测试报告与pytest集成
 allure-pytest~=2.1.0
+# pymysql：MySQL数据库驱动
+pymysql~=1.1.0
+# DBUtils：数据库连接池工具
+DBUtils~=3.1.0
+# typing_extensions：类型注解扩展，兼容性支持
+typing_extensions~=4.13.2
