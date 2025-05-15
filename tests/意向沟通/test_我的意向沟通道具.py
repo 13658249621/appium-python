@@ -6,7 +6,7 @@ from pages.我的.my_main_page import MyMainPage
 from pages.招聘道具.recruit_props_page import RecruitPropsPage
 from utils.screenshot_utils import take_screenshot
 
-def test_login(driver):
+def test_我的意向沟通道具(driver):
     home_page = HomePage(driver)
     my_main_page = MyMainPage(driver)
     recruit_props_page = RecruitPropsPage(driver)
@@ -30,6 +30,6 @@ def test_login(driver):
     recruit_props_page.click_detail_h5_element()
 
     sleep(1)
-    screenshot_path = take_screenshot(driver, test_login.__name__)
-    with allure.step("添加截图到报告"):
-        allure.attach.file(screenshot_path, name="查看道具详情", attachment_type=allure.attachment_type.PNG)
+    screenshot_path = take_screenshot(driver, test_我的意向沟通道具.__name__)
+    with allure.step("查看订单详情"):
+        allure.attach.file(screenshot_path, name="查看订单详情", attachment_type=allure.attachment_type.PNG)

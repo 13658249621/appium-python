@@ -1,4 +1,9 @@
-# 搜索结果页面
+# -*- coding: utf-8 -*-
+"""
+SearchResultPage 页面对象
+
+封装了Boss直聘App搜索结果页面的主要操作，包括候选人卡片操作、筛选等。
+"""
 from pages.base_page import BasePage
 
 class SearchResultPage(BasePage):
@@ -21,28 +26,44 @@ class SearchResultPage(BasePage):
     CONFIRM_BUTTON = ('id', 'com.hpbr.bosszhipin:id/btn_confirm')
     
     def get_candidate_card_count(self):
-        return len(self.find_elements(*self.CANDIDATE_CARD_LIST))
-        
-    # 点击第一个牛人卡片
-    def click_first_candidate_card(self):
-        self.click(*self.CANDIDATE_CARD)
-        
-    # 点击排序选择按钮
+        """
+        获取牛人卡片数量
+        :return: int
+        """
+        cards = self.find_elements(*self.CANDIDATE_CARD)
+        return len(cards) if cards else 0
+
     def click_sort_filter_option(self):
-        self.click(*self.SORT_FILTER_BUTTON)
-        
-    # 点击活跃优先选项
+        """
+        点击排序筛选项
+        :return: None
+        """
+        self.click(*self.SORT_FILTER_OPTION)
+
     def click_active_first_option(self):
+        """
+        选择活跃优先选项
+        :return: None
+        """
         self.click(*self.ACTIVE_FIRST_OPTION)
-        
-    # 点击学历筛选项
+
     def click_education_filter_option(self):
+        """
+        点击学历筛选项
+        :return: None
+        """
         self.click(*self.EDUCATION_FILTER_OPTION)
-        
-    # 点击离职-随时到岗选项
+
     def click_available_immediately_option(self):
+        """
+        选择离职-随时到岗选项
+        :return: None
+        """
         self.click(*self.AVAILABLE_IMMEDIATELY_OPTION)
-        
-    # 点击筛选界面确认按钮
+
     def click_confirm_button(self):
+        """
+        点击确认按钮
+        :return: None
+        """
         self.click(*self.CONFIRM_BUTTON) 

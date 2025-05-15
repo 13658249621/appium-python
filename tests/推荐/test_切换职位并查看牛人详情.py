@@ -8,16 +8,16 @@ import pytest
 from utils.logger import get_logger
 logger = get_logger()
 
-def test_login(driver):
+def test_切换职位并查看牛人详情(driver):
     recommend_main_page = RecommendMainPage(driver)
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_切换职位并查看牛人详情.__name__)
     with allure.step("主页"):
         allure.attach.file(screenshot_path, name="主页", attachment_type=allure.attachment_type.PNG)
     #如果职位数量大于1，点击切换到第二个职位
     job_count = recommend_main_page.get_job_count()
     if len(job_count) > 1:
         recommend_main_page.switch_job_tab(2)
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_切换职位并查看牛人详情.__name__)
     with allure.step("切换职位"):
         allure.attach.file(screenshot_path, name="切换职位", attachment_type=allure.attachment_type.PNG)
     #判断候选人列表是否返回了数据
@@ -29,7 +29,7 @@ def test_login(driver):
     #点击第一个候选人卡片
     recommend_main_page.click_candidate(0)
     sleep(1)
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_切换职位并查看牛人详情.__name__)
     with allure.step("查看牛人详情"):
         allure.attach.file(screenshot_path, name="查看牛人详情", attachment_type=allure.attachment_type.PNG)
     #进入详情页，获取详情页信息
@@ -53,6 +53,6 @@ def test_login(driver):
             f"详情页期望薪资({detail_salary})与卡片期望薪资({candidate_info['salary']})不一致"
 
     # 断言后截图
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_切换职位并查看牛人详情.__name__)
     with allure.step("断言后截图"):
         allure.attach.file(screenshot_path, name="断言后截图", attachment_type=allure.attachment_type.PNG)

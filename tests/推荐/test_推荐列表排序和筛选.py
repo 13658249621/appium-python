@@ -10,7 +10,7 @@ from pages.推荐.recommend_filter_page import RecommendFilterPage
 
 logger = get_logger()
 
-def test(driver):
+def test_推荐列表排序和筛选(driver):
     recommend_main_page = RecommendMainPage(driver)
     filter_page = RecommendFilterPage(driver)
 

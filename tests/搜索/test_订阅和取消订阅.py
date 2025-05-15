@@ -7,7 +7,7 @@ from pages.搜索.search_main_page import SearchMainPage
 logger = get_logger()
 
 
-def test_login(driver):
+def test_订阅和取消订阅(driver):
     home_page = HomePage(driver)
     search_page = SearchMainPage(driver)
     

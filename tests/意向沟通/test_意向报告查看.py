@@ -10,7 +10,7 @@ from pages.意向沟通.yxgt_main_page import IntentionCommunicationMainPage
 from pages.意向沟通.yxgt_report_page import IntentionCommunicationReportPage
 from utils.screenshot_utils import take_screenshot
 
-def test_login(driver):
+def test_意向报告查看(driver):
     home_page = HomePage(driver)
     my_main_page = MyMainPage(driver)
     main_page = IntentionCommunicationMainPage(driver)
@@ -36,6 +36,6 @@ def test_login(driver):
     # 9. 点击"查看手机"
     report_page.click_view_phone_button()
     # 10. 截图并添加到allure报告
-    screenshot_path = take_screenshot(driver, test_login.__name__)
-    with allure.step("添加截图到报告"):
+    screenshot_path = take_screenshot(driver, test_意向报告查看.__name__)
+    with allure.step("查看牛人联系方式"):
         allure.attach.file(screenshot_path, name="查看牛人联系方式", attachment_type=allure.attachment_type.PNG)

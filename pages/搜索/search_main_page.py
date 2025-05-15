@@ -1,4 +1,9 @@
-#搜索tab主页面
+# -*- coding: utf-8 -*-
+"""
+SearchMainPage 页面对象
+
+封装了Boss直聘App搜索主页面的主要操作，包括搜索、订阅等。
+"""
 from pages.base_page import BasePage
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.actions import interaction
@@ -7,9 +12,15 @@ from selenium.webdriver.common.actions.pointer_input import PointerInput
 
 
 class SearchMainPage(BasePage):
-    SEARCH_BOX = ('xpath', '//android.widget.TextView[@text="请输入公司/行业/技能等"]')
-    SEARCH_INPUT = ('id', 'com.hpbr.bosszhipin:id/et_input')
-    SEARCH_BUTTON = ('id', 'com.hpbr.bosszhipin:id/tv_search_action')
+    """
+    Boss直聘App搜索主页面对象
+    封装搜索、订阅等相关操作
+    """
+
+    # --- 页面元素定位符 ---
+    SEARCH_BOX = ('xpath', '//android.widget.TextView[@text="请输入公司/行业/技能等"]')  # 搜索框
+    SEARCH_INPUT = ('id', 'com.hpbr.bosszhipin:id/et_input')  # 搜索输入框
+    SEARCH_BUTTON = ('id', 'com.hpbr.bosszhipin:id/tv_search_action')  # 搜索按钮
     
     # 我的订阅tab
     MY_SUBSCRIPTION_TAB = ('xpath', '//android.widget.TextView[@resource-id="com.hpbr.bosszhipin:id/tv_tab_name" and @text="我的订阅"]')
@@ -27,33 +38,66 @@ class SearchMainPage(BasePage):
     SUBSCRIPTION_CARD = ('xpath', '(//android.view.ViewGroup[@resource-id="com.hpbr.bosszhipin:id/cl_subscribe_card"])[1]')
     #== 搜索 ==
     def click_search_box(self):
+        """
+        点击搜索框
+        :return: None
+        """
         self.click(*self.SEARCH_BOX)
 
     def input_search_keyword(self, keyword):
+        """
+        在搜索输入框输入关键词
+        :param keyword: 搜索关键词
+        :return: None
+        """
         self.input(*self.SEARCH_INPUT, keyword)
 
     def click_search_button(self):
+        """
+        点击搜索按钮
+        :return: None
+        """
         self.click(*self.SEARCH_BUTTON)
     
     #== 我的订阅 ==
     def get_subscription_card_count(self):
+        """
+        获取订阅卡片数量
+        :return: int
+        """
         cards = self.find_elements(*self.SUBSCRIPTION_CARD_LIST)
         return len(cards) if cards else 0
 
-    # 点击我的订阅tab
+    
     def click_my_subscription_tab(self):
+        """
+        点击我的订阅tab
+        :return: None
+        """
         self.click(*self.MY_SUBSCRIPTION_TAB)
         
-    # 点击关闭订阅按钮
+    
     def click_close_subscription_button(self):
+        """
+        点击关闭订阅按钮
+        :return: None
+        """
         self.click(*self.CLOSE_SUBSCRIPTION_BUTTON)
         
-    # 点击确认按钮
+    
     def click_confirm_positive_button(self):
+        """
+        点击确认按钮（取消订阅）
+        :return: None
+        """
         self.click(*self.CONFIRM_POSITIVE_BUTTON)
         
-    # 从右往左滑动(取消订阅后创建新订阅)
+    # 订阅卡片区域从右往左滑动(取消订阅后创建新订阅)
     def swipe_right_to_left(self):
+        """
+        从右往左滑动（取消订阅后创建新订阅）
+        :return: None
+        """
         # 获取屏幕尺寸
         screen_size = self.driver.get_window_size()
         screen_width = screen_size['width']
@@ -75,32 +119,52 @@ class SearchMainPage(BasePage):
         actions.w3c_actions.pointer_action.release()
         actions.perform()
         
-    # 点击订阅按钮
+    
     def click_subscribe_button(self):
+        """
+        点击订阅按钮
+        :return: None
+        """
         self.click(*self.SUBSCRIBE_BUTTON)
         
-    # 获取订阅卡片上的描述文本
+    
     def get_subscription_desc_text(self):
+        """
+        获取订阅卡片上的描述文本
+        :return: str or None
+        """
         element = self.find_element(*self.SUBSCRIPTION_DESC_TEXT)
         if element:
             return element.get_attribute('text')
         return None
         
-    # 点击订阅卡片
+    
     def click_subscription_card(self):
+        """
+        点击订阅卡片
+        :return: None
+        """
         cards = self.driver.find_elements(*self.SUBSCRIPTION_CARD)
         if cards and len(cards) > 0:
             cards[0].click()
             
-    # 获取搜索框文本
+    
     def get_search_input_text(self):
+        """
+        获取搜索输入框文本
+        :return: str or None
+        """
         element = self.find_element(*self.SEARCH_INPUT)
         if element:
             return element.get_attribute('text')
         return None
         
-    # 验证搜索词是否在订阅描述中
+    
     def verify_search_text_in_subscription(self):
+        """
+        验证搜索词是否在订阅描述中
+        :return: None
+        """
         search_text = self.get_search_input_text()
         subscription_text = self.get_subscription_desc_text()
         assert search_text in subscription_text, f"文本不匹配: {search_text} not in {subscription_text}"

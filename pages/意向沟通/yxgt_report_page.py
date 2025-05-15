@@ -2,8 +2,13 @@
 from pages.base_page import BasePage
 from utils.image_math import click_by_image
 
-
+# -*- coding: utf-8 -*-
+"""
+意向报告页面对象
+"""
 class IntentionCommunicationReportPage(BasePage):
+
+
     # 查看手机按钮
     VIEW_PHONE_BUTTON = ('xpath', '//android.widget.TextView[@text="手机"]/following-sibling::*[2]')
 

@@ -12,7 +12,7 @@ import pytest
 logger = get_logger()
 
 
-def test_login(driver):
+def test_收藏和取消收藏(driver):
     home_page = HomePage(driver)
     search_main_page = SearchMainPage(driver)
     search_result_page = SearchResultPage(driver)
@@ -22,7 +22,7 @@ def test_login(driver):
     home_page.click_search_tab()
     logger.info("点击搜索tab")
     
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_收藏和取消收藏.__name__)
     with allure.step("添加截图到报告"):
         allure.attach.file(screenshot_path, name="点击搜索tab", attachment_type=allure.attachment_type.PNG)
     
@@ -30,7 +30,7 @@ def test_login(driver):
     search_main_page.click_search_button()
     logger.info("点击搜索按钮")
     
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_收藏和取消收藏.__name__)
     with allure.step("添加截图到报告"):
         allure.attach.file(screenshot_path, name="点击搜索", attachment_type=allure.attachment_type.PNG)
     
@@ -41,7 +41,7 @@ def test_login(driver):
     search_result_page.click_first_candidate_card()
     logger.info("点击第一个牛人卡片")
     
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_收藏和取消收藏.__name__)
     with allure.step("添加截图到报告"):
         allure.attach.file(screenshot_path, name="点击第一个牛人卡片", attachment_type=allure.attachment_type.PNG)
     
@@ -49,6 +49,6 @@ def test_login(driver):
     candidate_detail_page.click_favorite_button()
     logger.info("点击收藏按钮")
     sleep(2)
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_收藏和取消收藏.__name__)
     with allure.step("添加截图到报告"):
         allure.attach.file(screenshot_path, name="点击收藏", attachment_type=allure.attachment_type.PNG)

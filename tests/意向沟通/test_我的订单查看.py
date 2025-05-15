@@ -10,7 +10,7 @@ from utils.screenshot_utils import take_screenshot
 
 
 
-def test_login(driver):
+def test_我的订单查看(driver):
     home_page = HomePage(driver)
     my_main_page = MyMainPage(driver)
     main_page = IntentionCommunicationMainPage(driver)
@@ -38,8 +38,8 @@ def test_login(driver):
     # 10. 点击"查看简历"
     report_page.click_view_resume()
     # 11. 截图并添加到allure报告
-    screenshot_path = take_screenshot(driver, test_login.__name__)
-    with allure.step("添加截图到报告"):
+    screenshot_path = take_screenshot(driver, test_我的订单查看.__name__)
+    with allure.step("查看牛人简历"):
         allure.attach.file(screenshot_path, name="查看牛人简历", attachment_type=allure.attachment_type.PNG)
 
 

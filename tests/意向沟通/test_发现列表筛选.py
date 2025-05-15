@@ -7,7 +7,7 @@ from pages.意向沟通.yxgt_main_page import IntentionCommunicationMainPage
 from utils.screenshot_utils import take_screenshot
 import pytest
 
-def test_login(driver):
+def test_发现列表筛选(driver):
     home_page = HomePage(driver)
     my_main_page = MyMainPage(driver)
     main_page = IntentionCommunicationMainPage(driver)
@@ -18,7 +18,7 @@ def test_login(driver):
     # 2. 点击"意向沟通"动态条
     my_main_page.click_yxgt_dynamic_bar()
     # 3. 点击"意向沟通"tab
-    main_page.click_yxgt_tab()
+    main_page.click_intention_communication_tab()
     # 4. 点击筛选项按钮
     main_page.click_filter_item_button()
     # 5. 点击"在职-暂不考虑"筛选项
@@ -36,6 +36,6 @@ def test_login(driver):
     main_page.click_first_candidate_root()
     sleep(1)
     # 11. 截图并添加到allure报告
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_发现列表筛选.__name__)
     with allure.step("添加截图到报告"):
         allure.attach.file(screenshot_path, name="查看牛人简历", attachment_type=allure.attachment_type.PNG)

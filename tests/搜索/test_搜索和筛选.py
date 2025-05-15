@@ -11,7 +11,7 @@ from utils.logger import get_logger
 logger = get_logger()
 
 
-def test_login(driver):
+def test_搜索和筛选(driver):
     # 初始化页面对象
     home_page = HomePage(driver)
     search_main_page = SearchMainPage(driver)
@@ -55,7 +55,7 @@ def test_login(driver):
     
     # 截图记录筛选结果
     sleep(2)
-    screenshot_path = take_screenshot(driver, test_login.__name__)
+    screenshot_path = take_screenshot(driver, test_搜索和筛选.__name__)
     with allure.step("添加截图到报告"):
         allure.attach.file(screenshot_path, name="筛选结果", attachment_type=allure.attachment_type.PNG)
 
